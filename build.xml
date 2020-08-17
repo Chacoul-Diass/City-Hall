@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\Chacoul_Diarrassouba\Documents\NetBeansProjects\City_Halls connexion\dist\City_Halls.jar</jar>
+  <outfile>C:\Users\Chacoul_Diarrassouba\Desktop\City Hall.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <singleInstance>
+    <mutexName>Hall</mutexName>
+    <windowTitle></windowTitle>
+  </singleInstance>
+  <classPath>
+    <mainClass>city_halls.City_Halls</mainClass>
+    <cp>lib/mysql-connector-java-5.1.5-bin.jar</cp>
+    <cp>lib/jcalendar-1.4.jar</cp>
+    <cp>lib/com.lowagie.text-2.1.7.jar</cp>
+    <cp>lib/itext-4.2.1.jar</cp>
+    <cp>lib/bcmail-jdk14-1.38.jar</cp>
+    <cp>lib/bcprov-jdk14-1.38.jar</cp>
+    <cp>lib/bctsp-jdk14-1.38.jar</cp>
+    <cp>lib/dom4j-1.6.1.jar</cp>
+    <cp>lib/jcommon-1.0.15.jar</cp>
+    <cp>lib/jfreechart-1.0.12.jar</cp>
+    <cp>lib/pdf-renderer-1.0.5.jar</cp>
+    <cp>lib/xml-apis-1.0.b2.jar</cp>
+    <cp>lib/beansbinding-1.2.1.jar</cp>
+    <cp>lib/DateChooser.jar</cp>
+    <cp>lib/rs2xml.jar</cp>
+  </classPath>
+  <jre>
+    <path>C:\Program Files\Java\jre1.8.0_261</path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.0.1</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+</launch4jConfig>
