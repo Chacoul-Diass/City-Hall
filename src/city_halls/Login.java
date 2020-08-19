@@ -6,6 +6,7 @@
 package city_halls;
 
 import java.sql.*;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -214,6 +215,7 @@ public class Login extends javax.swing.JFrame {
             ResultSet res = pst.executeQuery();
             
             if(res.next()){
+                JOptionPane.showMessageDialog(null, "Bienvenue cher(e)"+" "+res.getString("pseudo").toUpperCase()+" !");
                 Menu men = new Menu();
                 men.setUsername(username.getText());
                 men.setVisible(true);
